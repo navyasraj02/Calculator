@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+.calc {
+    height: 500px;
+    width: 430px;
+    background-color: #BDE6F1;
+    margin: 5% 30%;
+    align-items: center;
+    padding-top: 3%;
+    border-radius: 5px;
+    border: 2px solid #293462;
+
+}
+
+.heading-calc {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+}
+
+.calc-top {
+    margin: 10% 20% 0% 20%;
+    pointer-events: none;
+    padding: 0px 12.5px;
+}
+
+.input {
+    text-align: center;
+    font-size: 0;
+}
+
+.button-style {
+    border: 1px solid darkgrey;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    background-color: white;
+    width: 70px;
+    height: 50px;
+}
+
+.button-style:hover {
+    background-color: #DDDDDD;
+    /* Green */
+    color: black;
+}
+
+.button-style-op {
+    font-size: 18px;
+    transition-duration: 0.4s;
+    background-color: #DFDFDE;
+    width: 70px;
+    height: 50px;
+    border: 1px solid darkgrey;
+}
+
+.button-style-op:hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+.button-style-eq {
+    font-size: 18px;
+    transition-duration: 0.4s;
+    background-color: orange;
+    width: 70px;
+    height: 50px;
+    border: 1px solid darkgrey;
+}
+
+.button-style-eq:hover {
+    background-color: #F77E21;
+    color: black;
+}
+
+.cancelB {
+    width: 279px;
+    height: 50px;
+    transition-duration: 0.4s;
+    font-size: 15px;
+    border: 1px solid darkgrey;
+}
+
+.cancelB :hover {
+    background-color: #3A3845;
+    color: black;
+}
+
+.calc-top {
+    border: 1px solid black;
+    height: 50px;
+    color: whitesmoke;
+    text-align: right;
+    font-size: 20px;
+    background-color: #19282F;
+
+}
+
+
+.output {
+
+    padding: 0px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
