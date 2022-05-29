@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <div class="main-body">
+        <div class ="calc">
+                <div class="heading-calc">
+                    CALCULATOR
+                </div>
+                <div class="output">
+                    <input type="text" class="calc-top" id="ans" >
+                </div>
+                <div class="input">
+                    <div class="row">
+                        <button onclick="showClear()" class="cancelB">C</button>
+                    </div>
+                    <div class="row">
+                        <div class="buttons">
+                        <button onclick="show(7)" class="button-style">7</button>
+                        <button onclick="show(8)" class="button-style">8</button>
+                        <button onclick="show(9)" class="button-style">9</button>
+                        <button onclick="show('/')" class="button-style-op">/</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button onclick="show(4)" class="button-style">4</button>
+                        <button onclick="show(5)" class="button-style">5</button>
+                        <button onclick="show(6)" class="button-style">6</button>
+                        <button onclick="show('*')" class="button-style-op">*</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="show(1)" class="button-style">1</button>
+                        <button onclick="show(2)" class="button-style">2</button>
+                        <button onclick="show(3)" class="button-style">3</button>
+                        <button onclick="show('-')" class="button-style-op">-</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="show('.')" class="button-style-op">.</button>
+                        <button onclick="show(0)" class="button-style">0</button>
+                        <button onclick="showEqual()" class="button-style-eq">=</button>
+                        <button onclick="show('+')" class="button-style-op">+</button>
+                    </div>
+                </div>
+            
+        </div>
+
+    </div>
+    
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
